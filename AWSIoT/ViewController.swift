@@ -45,11 +45,29 @@ class ViewController: UIViewController {
     }
     
     
+    func LambdaDynamo(){
+        let lambdaInvoker = AWSLambdaInvoker.default()
+        let jsonObject: [String: Any] = ["key1" : "OK",
+                                         "isError" : false]
+        
+        lambdaInvoker.invokeFunction("myDynamoDB_get", jsonObject: jsonObject).continueWith(block: {(task:AWSTask<AnyObject>) -> Any? in
+            if let error = task.error {
+                print("Error: \(error)")
+                return nil
+            }
+            if let JSONDictionary = task.result {
+                print("Result: \(JSONDictionary)")
+            }
+            return nil
+        })
+    }
+    
+    
     //lockのボタン（左）押したらjsonObjectをlambdaに送る
     @IBAction func Lock(_ sender: Any) {
         
         LambdaLock(key: "0")
-        
+        LambdaDynamo()
     }
     
 
@@ -58,6 +76,7 @@ class ViewController: UIViewController {
     @IBAction func Unlock(_ sender: Any) {
         
         LambdaLock(key: "1")
+        LambdaDynamo()
         
     }
     
