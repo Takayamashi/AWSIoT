@@ -80,8 +80,8 @@
 				6A8ED9CA20EF856C000C562B /* Assets.xcassets */,
 				6A8ED9CC20EF856C000C562B /* LaunchScreen.storyboard */,
 				6A8ED9CF20EF856C000C562B /* Info.plist */,
-				6A5073F020F3554E00A26BFF /* unlock.jpg */,
 				6A5073F220F3556000A26BFF /* lock.jpg */,
+				6A5073F020F3554E00A26BFF /* unlock.jpg */,
 			);
 			path = AWSIoT;
 			sourceTree = "<group>";
