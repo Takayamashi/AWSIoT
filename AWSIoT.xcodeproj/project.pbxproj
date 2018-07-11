@@ -7,19 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6A5073F120F3554E00A26BFF /* unlock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A5073F020F3554E00A26BFF /* unlock.jpg */; };
 		6A5073F320F3556000A26BFF /* lock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A5073F220F3556000A26BFF /* lock.jpg */; };
 		6A8ED9C420EF8567000C562B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8ED9C320EF8567000C562B /* AppDelegate.swift */; };
 		6A8ED9C620EF8567000C562B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8ED9C520EF8567000C562B /* ViewController.swift */; };
 		6A8ED9C920EF8567000C562B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A8ED9C720EF8567000C562B /* Main.storyboard */; };
 		6A8ED9CB20EF856C000C562B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A8ED9CA20EF856C000C562B /* Assets.xcassets */; };
 		6A8ED9CE20EF856C000C562B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A8ED9CC20EF856C000C562B /* LaunchScreen.storyboard */; };
+		6A9932B420F59135005C3ECD /* unlock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6A9932B320F59135005C3ECD /* unlock.jpg */; };
 		8CCAB9FD6DCC9B4E8B9BADB0 /* Pods_AWSIoT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 297B1ADBC591DE6B29BF4913 /* Pods_AWSIoT.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		297B1ADBC591DE6B29BF4913 /* Pods_AWSIoT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AWSIoT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6A5073F020F3554E00A26BFF /* unlock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = unlock.jpg; path = ../../../../../Downloads/unlock.jpg; sourceTree = "<group>"; };
 		6A5073F220F3556000A26BFF /* lock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lock.jpg; sourceTree = "<group>"; };
 		6A8ED9C020EF8567000C562B /* AWSIoT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AWSIoT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A8ED9C320EF8567000C562B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +27,7 @@
 		6A8ED9CA20EF856C000C562B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A8ED9CD20EF856C000C562B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A8ED9CF20EF856C000C562B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A9932B320F59135005C3ECD /* unlock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = unlock.jpg; sourceTree = "<group>"; };
 		80AF726554F06B6AC22D0288 /* Pods-AWSIoT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSIoT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AWSIoT/Pods-AWSIoT.debug.xcconfig"; sourceTree = "<group>"; };
 		CBF4E4C30A1FAC9E50E694EC /* Pods-AWSIoT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWSIoT.release.xcconfig"; path = "Pods/Target Support Files/Pods-AWSIoT/Pods-AWSIoT.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,8 +80,8 @@
 				6A8ED9CA20EF856C000C562B /* Assets.xcassets */,
 				6A8ED9CC20EF856C000C562B /* LaunchScreen.storyboard */,
 				6A8ED9CF20EF856C000C562B /* Info.plist */,
+				6A9932B320F59135005C3ECD /* unlock.jpg */,
 				6A5073F220F3556000A26BFF /* lock.jpg */,
-				6A5073F020F3554E00A26BFF /* unlock.jpg */,
 			);
 			path = AWSIoT;
 			sourceTree = "<group>";
@@ -155,8 +155,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A8ED9CE20EF856C000C562B /* LaunchScreen.storyboard in Resources */,
-				6A5073F120F3554E00A26BFF /* unlock.jpg in Resources */,
 				6A8ED9CB20EF856C000C562B /* Assets.xcassets in Resources */,
+				6A9932B420F59135005C3ECD /* unlock.jpg in Resources */,
 				6A5073F320F3556000A26BFF /* lock.jpg in Resources */,
 				6A8ED9C920EF8567000C562B /* Main.storyboard in Resources */,
 			);
